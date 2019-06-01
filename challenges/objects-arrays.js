@@ -102,9 +102,9 @@ const uni = [];
 
 let university = [];
 for (let i = 0; i < graduates.length; i++) {
-  university.push(graduates[i].university)
+  university.push(graduates[i].university);
 }
-for(let i = 0; i < graduates.length; i++) {
+for (let i = 0; i < graduates.length; i++) {
   if (university[i].includes("Uni")); {
   uni.push(university[i]);
   }
